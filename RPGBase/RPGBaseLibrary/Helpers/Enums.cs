@@ -35,4 +35,10 @@ namespace RPGBaseLibrary.Helpers
         SilverGreaves = 9,
         SilverBuckler = 10
     }
+
+    public enum AttackModifierEnum
+    {
+        NormalHit = 1,
+        CriticalHit = 2
+    }
 }

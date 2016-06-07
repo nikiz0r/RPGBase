@@ -29,6 +29,6 @@ namespace RPGBaseLibrary.Base
         public int Damage { get; set; }
         public int BaseArmor { get; set; }
         public int Armor { get; set; }
-        public StanceEnum Stance { get; set; }
+        public int Stance { get; set; }
     }
 }
