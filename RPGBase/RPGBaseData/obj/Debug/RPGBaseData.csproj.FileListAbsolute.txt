@@ -1,0 +1,7 @@
+D:\GitHub\RPGBase\RPGBase\RPGBaseData\bin\Debug\RPGBaseData.dll
+D:\GitHub\RPGBase\RPGBase\RPGBaseData\bin\Debug\RPGBaseData.pdb
+D:\GitHub\RPGBase\RPGBase\RPGBaseData\bin\Debug\RPGBaseLibrary.dll
+D:\GitHub\RPGBase\RPGBase\RPGBaseData\bin\Debug\RPGBaseLibrary.pdb
+D:\GitHub\RPGBase\RPGBase\RPGBaseData\obj\Debug\RPGBaseData.csprojResolveAssemblyReference.cache
+D:\GitHub\RPGBase\RPGBase\RPGBaseData\obj\Debug\RPGBaseData.dll
+D:\GitHub\RPGBase\RPGBase\RPGBaseData\obj\Debug\RPGBaseData.pdb

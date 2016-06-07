@@ -17,7 +17,13 @@ namespace RPGBaseLibrary.Helpers
         public void RenderMessage(string message, Object[] vars, int delayMS = 1000)
         {
             Thread.Sleep(delayMS);
-            Console.WriteLine(String.Format(message, vars));
+            
+            string newMsg = String.Format(message + "\n", vars);
+            foreach (var i in newMsg)
+	        {
+                Thread.Sleep(50);
+                Console.Write(i);
+	        }
         }
 
         public void StanceChange(BaseCharacter target, StanceEnum stance)

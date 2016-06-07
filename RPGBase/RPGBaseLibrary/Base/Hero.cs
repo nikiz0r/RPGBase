@@ -86,6 +86,13 @@ namespace RPGBaseLibrary.Base
 
         public void Attack(BaseMonster target)
         {
+            int targetArmor = target.Armor;
+
+            // raise targets armor if it is defending
+            if (target.Stance == (int)StanceEnum.Defense)
+                targetArmor *= 2;
+
+            // changes self stance only if it was defending before
             if (this.Stance == (int)StanceEnum.Defense)
                 e.StanceChange(this, StanceEnum.Attack);
 
@@ -102,7 +109,7 @@ namespace RPGBaseLibrary.Base
             if (resultDamage == 0)
                 e.RenderMessage("{0} armor is too high ({1}), {2} dealt no damage at all!", new object[] { target.Name, target.Armor, this.Name });
             else
-                e.RenderMessage("{0} deals {1} damage to {2}.", new object[] { this.Name, damage, target.Name });
+                e.RenderMessage("{0} deals {1} damage to {2}.", new object[] { this.Name, resultDamage, target.Name });
         }
 
         public void Defend()
