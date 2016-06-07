@@ -19,10 +19,13 @@ namespace RPGBaseUI
             // Criando o heroi
             Hero hero = new Hero("Charlinho", 1, 0, 20, 5, 1, 1);
 
-            hero.Equipments.Where(x => x.Slot == (int)SlotEnum.Head).FirstOrDefault().Item = _itemService.getItem(2);
+            hero.Equipments.Where(x => x.Slot == (int)SlotEnum.Head).FirstOrDefault().Item = _itemService.getItem((int)ItemIdEnum.BronzeHelmet);
+            hero.Equipments.Where(x => x.Slot == (int)SlotEnum.OffHand).FirstOrDefault().Item = _itemService.getItem((int)ItemIdEnum.SilverBuckler);
+
+            hero.UpdateStats();
 
             // Exemplo de equip
-            hero.EquipItem(_itemService.getItem(2));
+            //hero.EquipItem(_itemService.getItem((int)ItemIdEnum.SilverHelmet));
 
 
             Console.ReadKey();

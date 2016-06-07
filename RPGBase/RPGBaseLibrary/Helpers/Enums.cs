@@ -29,6 +29,10 @@ namespace RPGBaseLibrary.Helpers
         BronzeArmor = 3,
         BronzeGreaves = 4,
         BronzeBuckler = 5,
-        SilverSword = 6
+        SilverSword = 6,
+        SilverHelmet = 7,
+        SilverArmor = 8,
+        SilverGreaves = 9,
+        SilverBuckler = 10
     }
 }

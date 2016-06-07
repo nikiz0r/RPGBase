@@ -18,6 +18,10 @@ namespace RPGBaseData.Data
             itemList.Add(new BaseItem(4, 1, "Bronze Greaves", 0, 1, (int)SlotEnum.Feet, 0));
             itemList.Add(new BaseItem(5, 1, "Bronze Buckler", 0, 3, (int)SlotEnum.OffHand, 0));
             itemList.Add(new BaseItem(6, 2, "Silver Sword", 10, 0, (int)SlotEnum.Hand, 0.2));
+            itemList.Add(new BaseItem(7, 2, "Silver Helmet", 0, 1, (int)SlotEnum.Head, 0));
+            itemList.Add(new BaseItem(8, 2, "Silver Armor", 0, 2, (int)SlotEnum.Chest, 0));
+            itemList.Add(new BaseItem(9, 2, "Silver Greaves", 0, 1, (int)SlotEnum.Feet, 0));
+            itemList.Add(new BaseItem(10, 2, "Silver Buckler", 0, 3, (int)SlotEnum.OffHand, 0));
 
             return itemList;
         }

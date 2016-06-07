@@ -65,6 +65,24 @@ namespace RPGBaseLibrary.Base
 
             return choice;
         }
+
+        public void UpdateStats()
+        {
+            int totalDamage = this.BaseDamage;
+            int totalArmor = this.BaseArmor;
+
+            foreach (var equip in this.Equipments)
+            {
+                if (equip.Item != null)
+                {
+                    totalArmor += equip.Item.Armor;
+                    totalDamage += equip.Item.Damage;
+                }
+            }
+
+            this.Armor = totalArmor;
+            this.Damage = totalDamage;
+        }
     }
 
     public class Equipment
