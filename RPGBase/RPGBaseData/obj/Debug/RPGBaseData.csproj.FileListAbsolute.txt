@@ -5,3 +5,10 @@ D:\GitHub\RPGBase\RPGBase\RPGBaseData\bin\Debug\RPGBaseLibrary.pdb
 D:\GitHub\RPGBase\RPGBase\RPGBaseData\obj\Debug\RPGBaseData.csprojResolveAssemblyReference.cache
 D:\GitHub\RPGBase\RPGBase\RPGBaseData\obj\Debug\RPGBaseData.dll
 D:\GitHub\RPGBase\RPGBase\RPGBaseData\obj\Debug\RPGBaseData.pdb
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseData\bin\Debug\RPGBaseData.dll
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseData\bin\Debug\RPGBaseData.pdb
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseData\bin\Debug\RPGBaseLibrary.dll
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseData\bin\Debug\RPGBaseLibrary.pdb
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseData\obj\Debug\RPGBaseData.csprojResolveAssemblyReference.cache
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseData\obj\Debug\RPGBaseData.dll
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseData\obj\Debug\RPGBaseData.pdb

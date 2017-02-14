@@ -16,17 +16,18 @@ namespace RPGBaseUI
 
         static void Main(string[] args)
         {
-            Console.ReadKey();
+            var monsterList = _monsterService.getMonsterList();
+
+            //Console.ReadKey();
             // Prologo
-            e.RenderMessage("BLABLABLABLA", new object[] { });
-            e.RenderMessage("BLABLA BLABLA BLABLA", new object[] { }, 2000);
-            e.RenderMessage("BLABLA BLABLA BLABLABLABLA BLABLABLABLABLABLA", new object[] { }, 2000);
-            e.RenderMessage("Now, how should we call you?", new object[] { });
+            //e.RenderMessage("BLABLABLABLA", new object[] { });
+            //e.RenderMessage("BLABLA BLABLA BLABLA", new object[] { }, 2000);
+            //e.RenderMessage("BLABLA BLABLA BLABLABLABLA BLABLABLABLABLABLA", new object[] { }, 2000);
+            //e.RenderMessage("Now, how should we call you?", new object[] { });
 
             // Criando o heroi
-            string heroName = "";
-            e.GetInput();
-            heroName = "Douchebag";
+            //string heroName = e.GetInput();
+            var heroName = "Douchebag";
 
             e.RenderMessage("[Douchebag] is that it?", new object[]{});
             e.GetInput();
@@ -38,13 +39,45 @@ namespace RPGBaseUI
             hero.Equipments.Where(x => x.Slot == (int)SlotEnum.Hand).FirstOrDefault().Item = _itemService.getItem((int)ItemIdEnum.EmptyHands);
             e.RenderMessage("You are playing with {0}, a brave hero who only desires to be a student!", new object[] { hero.Name });
 
+            hero.UpdateStats();
 
-            //hero.UpdateStats();
+            // Begin treta
+            var mob = monsterList[new Random().Next(0, monsterList.Count)];
+            var battleResult = Treta(hero, mob);
 
             // Exemplo de equip
             //hero.EquipItem(_itemService.getItem((int)ItemIdEnum.SilverHelmet));
 
             Console.ReadKey();
+        }
+
+        static int Treta(Hero hero, BaseMonster mob)
+        {
+            while (hero.CurrentHP > 0 && mob.CurrentHP > 0)
+            {
+                var input = e.GetInput("\n1- Attack\n2- Defend");
+
+                if (input == "1")
+                    hero.Attack(mob);
+                else
+                    hero.Defend();
+
+                if (mob.CurrentHP > 0)
+                    mob.Attack(hero);
+
+                //Events.showStats(hero);
+                //Events.showStats(mob);
+
+                if (mob.CurrentHP <= 0)
+                {
+                    //e.ShowMessage($"{hero.Name} has slain 1 {mob.Name}");
+                }
+            }
+
+            if (hero.CurrentHP <= 0)
+                return -1;
+            else
+                return 1;
         }
     }
 }

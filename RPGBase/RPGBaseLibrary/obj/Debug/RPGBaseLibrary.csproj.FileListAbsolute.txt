@@ -3,3 +3,8 @@ D:\GitHub\RPGBase\RPGBase\RPGBaseLibrary\bin\Debug\RPGBaseLibrary.pdb
 D:\GitHub\RPGBase\RPGBase\RPGBaseLibrary\obj\Debug\RPGBaseLibrary.csprojResolveAssemblyReference.cache
 D:\GitHub\RPGBase\RPGBase\RPGBaseLibrary\obj\Debug\RPGBaseLibrary.dll
 D:\GitHub\RPGBase\RPGBase\RPGBaseLibrary\obj\Debug\RPGBaseLibrary.pdb
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseLibrary\bin\Debug\RPGBaseLibrary.dll
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseLibrary\bin\Debug\RPGBaseLibrary.pdb
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseLibrary\obj\Debug\RPGBaseLibrary.csprojResolveAssemblyReference.cache
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseLibrary\obj\Debug\RPGBaseLibrary.dll
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseLibrary\obj\Debug\RPGBaseLibrary.pdb

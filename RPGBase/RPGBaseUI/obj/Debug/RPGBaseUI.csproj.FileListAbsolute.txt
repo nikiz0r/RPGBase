@@ -12,3 +12,17 @@ D:\GitHub\RPGBase\RPGBase\RPGBaseUI\bin\Debug\RPGBaseData.pdb
 D:\GitHub\RPGBase\RPGBase\RPGBaseUI\obj\Debug\RPGBaseUI.csprojResolveAssemblyReference.cache
 D:\GitHub\RPGBase\RPGBase\RPGBaseUI\obj\Debug\RPGBaseUI.exe
 D:\GitHub\RPGBase\RPGBase\RPGBaseUI\obj\Debug\RPGBaseUI.pdb
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseUI\bin\Debug\RPGBaseUI.exe.config
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseUI\obj\Debug\RPGBaseUI.exe
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseUI\obj\Debug\RPGBaseUI.pdb
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseUI\bin\Debug\RPGBaseUI.exe
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseUI\bin\Debug\RPGBaseUI.pdb
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseUI\bin\Debug\RPGBaseLibrary.dll
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseUI\bin\Debug\RPGBaseService.dll
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseUI\bin\Debug\RPGBaseRepository.dll
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseUI\bin\Debug\RPGBaseData.dll
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseUI\bin\Debug\RPGBaseLibrary.pdb
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseUI\bin\Debug\RPGBaseService.pdb
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseUI\bin\Debug\RPGBaseRepository.pdb
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseUI\bin\Debug\RPGBaseData.pdb
+C:\Users\logonrm\Source\Repos\RPGBase\RPGBase\RPGBaseUI\obj\Debug\RPGBaseUI.csprojResolveAssemblyReference.cache
